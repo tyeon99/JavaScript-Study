@@ -1,0 +1,47 @@
+2. 반복문 
+
+for문
+- 카운터 변수를 기준으로 명령을 여러 번 실행 
+- 여러 명령을 늘어 놓지 않고 소스를 간단하게 작성할 수 있음
+- 소스의 양이 줄어 실행 속도가 빨라짐
+
+var sum = 0;
+sum += 1;
+sum += 2;
+sum += 3;
+sum += 4;
+sum += 5;
+document.write("1부터 5까지 더하면 " + sum);
+=>
+var sum = 0;
+for(var i = 1; i < 6; i++){
+	sum += i;
+}
+document.write("1부터 5까지 더하면 " + sum);
+
+while문, do while문
+- 반복 횟수 기준이라면 : for문
+- 특정 조건에 따라 반복한다면 : while문, do while문
+
+var i = 0;
+while(i < 10) {
+	document.write('반복 조건이  true이면 반복합니다. <br>');
+	i += 1;
+}
+
+> while문 : 무한루프
+
+var i = 0;
+do{
+	document.write('반복 조건이  true이면 반복합니다. <br>');
+	i += 1;
+} while ( i < 10 );	//  조건이 false가 되면 반복 종료
+
+> do-while문 : 사용자에게 일단 물어보는 프로그램
+
+break문
+- 반복문의 흐름에서 바로 빠져나올 때 사용
+
+continue문
+- 주어진 조건에 맞는 값을 만났을 때 실행하던 반복 문장을 건너뛰고 반복문의 맨 앞으로 되돌아간다.
+
