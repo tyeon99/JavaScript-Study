@@ -1,0 +1,33 @@
+#panel{
+    position: relative;
+    width: 600px;
+    height: 300px;
+    border: 1px solid gray;
+}
+
+#earth{
+    position: absolute;
+    left: 50px;
+    top: 110px;
+    width: 80px;
+    height: auto;
+}
+
+#bar{
+    position: absolute;
+    left: 50px;
+    top: 190px;
+    width: 500px;
+    height: 15px;
+    background-color: red;
+}
+
+#btn{
+    text-align: center;
+    width: 600px;
+}
+
+#btnStart{
+    font-size: 12pt;
+    font-weight: bold;
+}
