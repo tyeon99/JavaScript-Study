@@ -1,0 +1,13 @@
+img{
+    width: 120px;
+}
+
+div.image-container{
+    position: relative;
+}
+
+div.image-container img{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
